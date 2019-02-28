@@ -2,8 +2,14 @@
 	"name": "bootstrap-4-cdn-snippet",
 	"displayName": "Bootstrap 4 CDN Snippet",
 	"description": "This will get you up and running to get a boilerplate of bootstrap ready in a sec",
-	"version": "1.0.7",
+	"version": "1.1.5",
 	"publisher": "eventyret",
+	"homepage": "https://github.com/Eventyret/vscode-bcdn/blob/master/README.md",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"bugs": {
+		"url": "https://github.com/Eventyret/vscode-bcdn/issues",
+		"email": "simen.dehlin@gmail.com"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Eventyret/vscode-bcdn"
@@ -27,6 +33,30 @@
 			},
 			{
 				"language": "html",
+				"path": "./snippets/formsnippets.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/navsnippets.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/formsnippets.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/navsnippets.json"
+			},
+			{
+				"language": "javascript",
 				"path": "./snippets/formsnippets.json"
 			}
 		]
